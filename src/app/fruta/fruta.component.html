@@ -1,0 +1,25 @@
+<div class="container m-5">
+
+    <h1>{{ titulo }}</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img [src]="cadena1" alt="">
+            </div>
+            <div class="col-sm">
+                <img [src]="cadena2" alt="">
+            </div>
+            <div class="col-sm">
+                <img [src]="cadena3" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="m-5 text-center">
+
+        <button (click)="random()" class="btn btn-primary text-center" type="submit">
+    JUGAR
+    </button>
+
+    </div>
